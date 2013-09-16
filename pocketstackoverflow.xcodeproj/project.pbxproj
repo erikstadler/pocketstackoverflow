@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F256F7EB17E6813B00D8868D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = F256F7EA17E6813B00D8868D /* Icon.png */; };
+		F256F7ED17E6814200D8868D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F256F7EC17E6814200D8868D /* Icon@2x.png */; };
+		F256F7EF17E6814A00D8868D /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = F256F7EE17E6814A00D8868D /* Icon-72.png */; };
 		F2E6220217E4D12D00175688 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E6220117E4D12D00175688 /* UIKit.framework */; };
 		F2E6220417E4D12D00175688 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E6220317E4D12D00175688 /* Foundation.framework */; };
 		F2E6220617E4D12D00175688 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E6220517E4D12D00175688 /* CoreGraphics.framework */; };
@@ -19,9 +22,21 @@
 		F2E6221B17E4D12D00175688 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E6221917E4D12D00175688 /* MainStoryboard_iPhone.storyboard */; };
 		F2E6221E17E4D12D00175688 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2E6221C17E4D12D00175688 /* MainStoryboard_iPad.storyboard */; };
 		F2E6222117E4D12D00175688 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E6222017E4D12D00175688 /* ViewController.m */; };
+		F2E6222C17E4EF1C00175688 /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E6222B17E4EF1C00175688 /* QuestionViewController.m */; };
+		F2E6223217E4EFA800175688 /* DataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E6223117E4EFA800175688 /* DataRequest.m */; };
+		F2E6223517E4F4A500175688 /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E6223417E4F4A500175688 /* Question.m */; };
+		F2E6223817E4F4B200175688 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E6223717E4F4B200175688 /* User.m */; };
+		F2E6223B17E5189300175688 /* QuestionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E6223A17E5189300175688 /* QuestionCell.m */; };
+		F2E6223E17E51C3C00175688 /* Badge.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E6223D17E51C3C00175688 /* Badge.m */; };
+		F2E6224117E52E9400175688 /* RecentBadgesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E6224017E52E9300175688 /* RecentBadgesRequest.m */; };
+		F2E6224417E62DE200175688 /* QuestionRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E6224317E62DE200175688 /* QuestionRequest.m */; };
+		F2E6224817E637BD00175688 /* OldBadgesRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E6224717E637BD00175688 /* OldBadgesRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F256F7EA17E6813B00D8868D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		F256F7EC17E6814200D8868D /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		F256F7EE17E6814A00D8868D /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../Icon-72.png"; sourceTree = "<group>"; };
 		F2E621FE17E4D12D00175688 /* pocketstackoverflow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pocketstackoverflow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2E6220117E4D12D00175688 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F2E6220317E4D12D00175688 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +54,24 @@
 		F2E6221D17E4D12D00175688 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		F2E6221F17E4D12D00175688 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F2E6222017E4D12D00175688 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F2E6222A17E4EF1C00175688 /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
+		F2E6222B17E4EF1C00175688 /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
+		F2E6223017E4EFA800175688 /* DataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataRequest.h; sourceTree = "<group>"; };
+		F2E6223117E4EFA800175688 /* DataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataRequest.m; sourceTree = "<group>"; };
+		F2E6223317E4F4A500175688 /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		F2E6223417E4F4A500175688 /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		F2E6223617E4F4B200175688 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		F2E6223717E4F4B200175688 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		F2E6223917E5189200175688 /* QuestionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionCell.h; sourceTree = "<group>"; };
+		F2E6223A17E5189300175688 /* QuestionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionCell.m; sourceTree = "<group>"; };
+		F2E6223C17E51C3C00175688 /* Badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Badge.h; sourceTree = "<group>"; };
+		F2E6223D17E51C3C00175688 /* Badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Badge.m; sourceTree = "<group>"; };
+		F2E6223F17E52E9300175688 /* RecentBadgesRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentBadgesRequest.h; sourceTree = "<group>"; };
+		F2E6224017E52E9300175688 /* RecentBadgesRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentBadgesRequest.m; sourceTree = "<group>"; };
+		F2E6224217E62DE200175688 /* QuestionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionRequest.h; sourceTree = "<group>"; };
+		F2E6224317E62DE200175688 /* QuestionRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionRequest.m; sourceTree = "<group>"; };
+		F2E6224617E637BD00175688 /* OldBadgesRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldBadgesRequest.h; sourceTree = "<group>"; };
+		F2E6224717E637BD00175688 /* OldBadgesRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldBadgesRequest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,10 +120,9 @@
 			children = (
 				F2E6221017E4D12D00175688 /* AppDelegate.h */,
 				F2E6221117E4D12D00175688 /* AppDelegate.m */,
-				F2E6221917E4D12D00175688 /* MainStoryboard_iPhone.storyboard */,
-				F2E6221C17E4D12D00175688 /* MainStoryboard_iPad.storyboard */,
-				F2E6221F17E4D12D00175688 /* ViewController.h */,
-				F2E6222017E4D12D00175688 /* ViewController.m */,
+				F2E6224A17E6405600175688 /* Views */,
+				F2E6224917E6404300175688 /* Models */,
+				F2E6224517E6372000175688 /* DataRequestHandlers */,
 				F2E6220817E4D12D00175688 /* Supporting Files */,
 			);
 			path = pocketstackoverflow;
@@ -99,6 +131,9 @@
 		F2E6220817E4D12D00175688 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F256F7EE17E6814A00D8868D /* Icon-72.png */,
+				F256F7EC17E6814200D8868D /* Icon@2x.png */,
+				F256F7EA17E6813B00D8868D /* Icon.png */,
 				F2E6220917E4D12D00175688 /* pocketstackoverflow-Info.plist */,
 				F2E6220A17E4D12D00175688 /* InfoPlist.strings */,
 				F2E6220D17E4D12D00175688 /* main.m */,
@@ -108,6 +143,49 @@
 				F2E6221717E4D12D00175688 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2E6224517E6372000175688 /* DataRequestHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				F2E6223017E4EFA800175688 /* DataRequest.h */,
+				F2E6223117E4EFA800175688 /* DataRequest.m */,
+				F2E6223F17E52E9300175688 /* RecentBadgesRequest.h */,
+				F2E6224017E52E9300175688 /* RecentBadgesRequest.m */,
+				F2E6224617E637BD00175688 /* OldBadgesRequest.h */,
+				F2E6224717E637BD00175688 /* OldBadgesRequest.m */,
+				F2E6224217E62DE200175688 /* QuestionRequest.h */,
+				F2E6224317E62DE200175688 /* QuestionRequest.m */,
+			);
+			name = DataRequestHandlers;
+			sourceTree = "<group>";
+		};
+		F2E6224917E6404300175688 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F2E6223317E4F4A500175688 /* Question.h */,
+				F2E6223417E4F4A500175688 /* Question.m */,
+				F2E6223617E4F4B200175688 /* User.h */,
+				F2E6223717E4F4B200175688 /* User.m */,
+				F2E6223C17E51C3C00175688 /* Badge.h */,
+				F2E6223D17E51C3C00175688 /* Badge.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F2E6224A17E6405600175688 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2E6221917E4D12D00175688 /* MainStoryboard_iPhone.storyboard */,
+				F2E6221C17E4D12D00175688 /* MainStoryboard_iPad.storyboard */,
+				F2E6221F17E4D12D00175688 /* ViewController.h */,
+				F2E6222017E4D12D00175688 /* ViewController.m */,
+				F2E6222A17E4EF1C00175688 /* QuestionViewController.h */,
+				F2E6222B17E4EF1C00175688 /* QuestionViewController.m */,
+				F2E6223917E5189200175688 /* QuestionCell.h */,
+				F2E6223A17E5189300175688 /* QuestionCell.m */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +245,9 @@
 				F2E6221817E4D12D00175688 /* Default-568h@2x.png in Resources */,
 				F2E6221B17E4D12D00175688 /* MainStoryboard_iPhone.storyboard in Resources */,
 				F2E6221E17E4D12D00175688 /* MainStoryboard_iPad.storyboard in Resources */,
+				F256F7EB17E6813B00D8868D /* Icon.png in Resources */,
+				F256F7ED17E6814200D8868D /* Icon@2x.png in Resources */,
+				F256F7EF17E6814A00D8868D /* Icon-72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +261,15 @@
 				F2E6220E17E4D12D00175688 /* main.m in Sources */,
 				F2E6221217E4D12D00175688 /* AppDelegate.m in Sources */,
 				F2E6222117E4D12D00175688 /* ViewController.m in Sources */,
+				F2E6222C17E4EF1C00175688 /* QuestionViewController.m in Sources */,
+				F2E6223217E4EFA800175688 /* DataRequest.m in Sources */,
+				F2E6223517E4F4A500175688 /* Question.m in Sources */,
+				F2E6223817E4F4B200175688 /* User.m in Sources */,
+				F2E6223B17E5189300175688 /* QuestionCell.m in Sources */,
+				F2E6223E17E51C3C00175688 /* Badge.m in Sources */,
+				F2E6224117E52E9400175688 /* RecentBadgesRequest.m in Sources */,
+				F2E6224417E62DE200175688 /* QuestionRequest.m in Sources */,
+				F2E6224817E637BD00175688 /* OldBadgesRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +347,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Barrage Software LLC (WVUCG68JZ9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Barrage Software LLC (WVUCG68JZ9)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -265,6 +356,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "F0693A7A-FB14-4EE2-B50D-E10AA6D2876C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F0693A7A-FB14-4EE2-B50D-E10AA6D2876C";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -285,10 +378,14 @@
 		F2E6222617E4D12D00175688 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Barrage Software LLC (WVUCG68JZ9)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Barrage Software LLC (WVUCG68JZ9)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pocketstackoverflow/pocketstackoverflow-Prefix.pch";
 				INFOPLIST_FILE = "pocketstackoverflow/pocketstackoverflow-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "F0693A7A-FB14-4EE2-B50D-E10AA6D2876C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "F0693A7A-FB14-4EE2-B50D-E10AA6D2876C";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -312,6 +409,7 @@
 				F2E6222617E4D12D00175688 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
