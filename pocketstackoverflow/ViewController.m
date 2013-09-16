@@ -96,7 +96,7 @@
 	
 	// AutoContinue Data Collection
 	[[RecentBadgesRequest handler] getRecentBadgeListForAllUsersInUserArray];
-	[[OldBadgesRequest handler] getOldBadges];
+	//[[OldBadgesRequest handler] getOldBadges];
 }
 
 - (void)questionRequestReturnedError:(NSError *)error {

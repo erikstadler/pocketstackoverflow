@@ -57,6 +57,7 @@ static OldBadgesRequest * handler;
 						@"https://api.stackexchange.com/2.1/users/%d/badges?todate=%d&order=desc&sort=awarded&site=stackoverflow&page=1&key=TUy5lpkPAMjaEqftXKcvPw((",
 						userID,[self getInterval]];
 	
+	self.needsAllPages = YES;
 	self.requestString = string;
 	[self run];
 }
@@ -90,6 +91,7 @@ static OldBadgesRequest * handler;
 							@"https://api.stackexchange.com/2.1/users/%@/badges?todate=%d&order=desc&sort=awarded&site=stackoverflow&page=1&key=TUy5lpkPAMjaEqftXKcvPw((",
 							subString,(int)interval];
 
+		self.needsAllPages = NO;
 		self.requestString = string;
 		[self run];
 	}

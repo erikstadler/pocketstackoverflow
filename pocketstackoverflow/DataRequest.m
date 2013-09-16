@@ -38,7 +38,7 @@
 
 - (void)queryJSON:(NSString*)string {
 	
-	//NSLog(@"Data Request query %@",string);
+	NSLog(@"[Page %d] Data Request query %@",currentPage,string);
 	
 	NSURL *url = [NSURL URLWithString:string];
 	NSURLRequest *request = [NSURLRequest requestWithURL:url];
